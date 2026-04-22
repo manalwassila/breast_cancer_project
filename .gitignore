@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.venv311/
+.venv37/
+env/
+build/
+dist/
+*.egg-info/
+
+# Data and Models
+data/
+data_split/
+raw_data/
+*.zip
+*.rar
+*.7z
+# Include models folder but ignore very large files if any (usually ok up to 100MB)
+# models/*.keras (uncomment if you want to exclude models too)
+
+# Node
+node_modules/
+dist/
+.eslintcache
+
+# Project Summary & Assets (Temporary)
+github_assets.md
+project_summary.md
+RAPPORT_TECHNIQUE.md
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Local App Data
+.gemini/
+antigravity/
+brain/
+knowledge/
+logs/
+task.md
+implementation_plan.md
+walkthrough.md
